@@ -1,0 +1,26 @@
+[project]
+name = "rag"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "霍思亦", email = "huosiyi@users.noreply.github.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "chromadb>=1.5.9",
+    "httpx>=0.28.1",
+    "jieba>=0.42.1",
+    "langchain-text-splitters>=1.1.3",
+    "mcp[cli]<2",
+    "openai>=3.29.0",
+    "rank-bm25>=0.2.2",
+    "sentence-transformers>=6.1.0",
+]
+
+[project.scripts]
+rag = "rag:main"
+
+[build-system]
+requires = ["uv_build>=0.13.0,<0.14.0"]
+build-backend = "uv_build"

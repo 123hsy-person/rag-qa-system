@@ -1,0 +1,20 @@
+# LLM / 向量库 / 检索
+openai
+chromadb
+sentence-transformers
+jieba
+rank-bm25
+langchain-text-splitters
+
+# LangChain 版 RAG（langchain_rag.py）
+langchain
+langchain-community
+langchain-classic
+
+# Web 界面（web_ui.py）
+fastapi
+uvicorn
+
+# MCP server（mcp/）
+mcp[cli]<2
+httpx

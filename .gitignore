@@ -1,0 +1,23 @@
+# secrets
+.env
+
+# vector dbs / cache / venv
+chroma_db/
+chroma_db_eval/
+chroma_lc/
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# eval outputs
+eval_result.txt
+compare_result.txt
+
+# 临时测试 / 排查输出
+test_api.py
+debug_badcase.txt
+
+# uv 锁文件 / 版本文件
+uv.lock
+.python-version
